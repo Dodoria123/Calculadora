@@ -35,8 +35,7 @@ public class HistoricoActivity extends AppCompatActivity {
         voltarCalculadora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goCalculadora = new Intent(HistoricoActivity.this,MainActivity.class);
-                startActivity(goCalculadora);
+                finish();
             }
         });
     }
